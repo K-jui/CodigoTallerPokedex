@@ -1,0 +1,43 @@
+@startuml
+package cl.ucn.programacionavanzada {
+    package model {
+        class Pokemon {
+                - id: int
+                - nombrePokemon: String
+                - etapa: String
+                - evolucionSiguiente: String
+                - evolucionPrevia: String
+                - tipoUno: String
+                - tipoDos: String
+                + Pokemon(id: int, nombrePokemon: String, etapa: String, evolucionSiguiente: String, evolucionPrevia: String, tipoUno: String, tipoDos: String)
+                + getter's()
+                + setter's()
+        }
+    }
+
+    package colecciones {
+    class NodoPokemon {
+            - Pokemon: pokemon
+            - NodoPokemon: nodoSiguiente
+            - NodoPokemon: nodoAnterior
+            + NodoPokemon()
+            + getter's()
+            + setter's()
+        }
+        NodoPokemon"1" <--o "2"NodoPokemon: referencia
+
+        class ListaPokemones {
+            - cabeza: NodoPokemon
+            - cantidadPokemones: int
+            + agregarPokemon()
+            + obtenerPokemonId(idObtener: int)
+            + obtenerPokemonTipo(tipoPokemon: String)
+            + obtenerPokemonPrimeraEvolucion()
+            + obtenerPokemonNombre(nombrePokemonObtener: String)
+        }
+        NodoPokemon"1..151" --*  ListaPokemones
+
+    }
+    Pokemon --> NodoPokemon
+}
+@enduml

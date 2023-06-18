@@ -1,0 +1,31 @@
+ID;Nombre;Etapa;Evolución Siguiente;Evolución Previa;Tipo 1;Tipo 2;Error
+29;Jolteon;Primera Evolucion;Eevee;Electrico;Electrico;NULO;NULO
+27;Eevee;Basico;Vaporeon;Jolteon;Flareon;Normal;Normal
+13;Weedle;Basico;Kakuna;Beedrill;Insecto;Insecto;NULO
+2;Ivysaur;Primera Evolucion;Venusaur;Bulbasaur;Hierba;Veneno;NULO
+14;Kakuna;Primera Evolucion;Beedrill;Weedle;Insecto;Insecto;NULO
+26;Raichu;Primera Evolucion;Pikachu;Electrico;Electrico;NULO;NULO
+25;Pikachu;Basico;Raichu;Electrico;Electrico;NULO;NULO
+23;Ekans;Basico;Arbok;Veneno;Veneno;NULO;NULO
+16;Pidgey;Basico;Pidgeotto;Pidgeot;Normal;Volador;NULO
+6;Charizard;Segunda Evolucion;Charmeleon;Charmander;Fuego;Volador;NULO
+8;Wartortle;Primera Evolucion;Blastoise;Squirtle;Agua;Agua;NULO
+15;Beedrill;Segunda Evolucion;Kakuna;Weedle;Insecto;Volador;NULO
+7;Squirtle;Basico;Wartortle;Blastoise;Agua;Agua;NULO
+24;Arbok;Primera Evolucion;Ekans;Veneno;Veneno;NULO;NULO
+1;Bulbasaur;Basico;Ivysaur;Venusaur;Hierba;Veneno;NULO
+28;Vaporeon;Primera Evolucion;Eevee;Agua;Agua;NULO;NULO
+22;Fearow;Primera Evolucion;Spearow;Normal;Volador;NULO;NULO
+19;Rattata;Basico;Raticate;Normal;Normal;NULO;NULO
+11;Metapod;Primera Evolucion;Butterfree;Caterpie;Insecto;Insecto;NULO
+17;Pidgeotto;Primera Evolucion;Pidgeot;Pidgey;Normal;Volador;NULO
+5;Charmeleon;Primera Evolucion;Charizard;Charmander;Fuego;Fuego;NULO
+12;Butterfree;Segunda Evolucion;Metapod;Caterpie;Insecto;Volador;NULO
+3;Venusaur;Segunda Evolucion;Ivysaur;Bulbasaur;Hierba;Veneno;NULO
+10;Caterpie;Basico;Metapod;Butterfree;Insecto;Insecto;NULO
+9;Blastoise;Segunda Evolucion;Wartortle;Squirtle;Agua;Agua;NULO
+18;Pidgeot;Segunda Evolucion;Pidgeotto;Pidgey;Normal;Volador;NULO
+4;Charmander;Basico;Charmeleon;Charizard;Fuego;Fuego;NULO
+20;Raticate;Primera Evolucion;Rattata;Normal;Normal;NULO;NULO
+21;Spearow;Basico;Fearow;Normal;Volador;NULO;NULO
+30;Flareon;Primera Evolucion;Eevee;Fuego;Fuego;NULO;NULO
